@@ -1,0 +1,5 @@
+.storyreel {
+  display: flex;
+  margin: 1rem 0rem;
+  justify-content: space-between;
+}

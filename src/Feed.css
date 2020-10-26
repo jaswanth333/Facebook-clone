@@ -1,0 +1,7 @@
+.feed {
+  display: flex;
+  flex:0.66;
+  flex-direction: column;
+  justify-content:center;
+  margin:0 0.5rem
+}

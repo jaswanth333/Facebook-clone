@@ -1,0 +1,49 @@
+.post{
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+ 
+  background-color:white;
+
+}
+
+.post>img{
+  width: 100%;
+
+ 
+}
+.post__top{
+  position: relative;
+  align-items: center;
+  display: flex;
+  margin:0.8rem 0 0 0.8rem;
+}
+
+
+.post__topInfo{
+  display: block;
+  margin-left: 1rem;
+}
+
+.post__topInfo >h3{
+  font-size:large;
+}
+
+.post__topInfo >p{
+  font-size:small;
+  color:gray;
+}
+
+.post__image{
+  width: 100%;
+  margin: 0 0 1rem 1rem;
+}
+
+.post__bottom{
+  margin:1rem 0 0 0.2rem;
+  padding:1rem;
+}
+
+.post__bottom >p{
+  font-size: large;
+}

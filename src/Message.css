@@ -1,0 +1,38 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.77);
+}
+.message__top {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  
+  
+}
+
+.message__top > form {
+
+  display:flex;
+  flex:1;
+  justify-content: space-around;
+
+  
+}
+
+.message__top > form > input {
+  padding:5px 20px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 999px;
+  outline-width: 0;
+  border: none;
+  font-size: 0.8rem;
+  width:100%;
+  
+}
+
+button{
+  display:none;
+}

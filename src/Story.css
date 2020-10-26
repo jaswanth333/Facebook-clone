@@ -1,0 +1,26 @@
+.story {
+  background-color: lightsalmon;
+  width: 150px;
+  position: relative;
+  height: 200px;
+  display: flex;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.story:hover {
+  transform: scale(1.07);
+}
+
+.story .avatar {
+  margin: 10px;
+}
+
+.story > p {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.app {
+  background-color: white;
+  height: 100vh;
+}
+
+.app-body {
+  display: flex;
+  flex:0.66;
+  background-color: whitesmoke;
+}
